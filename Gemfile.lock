@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/firstdraft/web_git.git
-  revision: 614ba241422a5516f5a0a02ff75557640e87a855
+  revision: d1d7d2d70cb66ec233229e53f2ec578df0c585b0
   specs:
     web_git (0.1.0)
       actionview
