@@ -6,11 +6,16 @@ puts "1. Open a URL"
 puts "2. Join a wifi network"
 puts "3. Send a text message"
 puts
+puts "Press 4 to exit"
+puts
 
 kind_of_code = gets.chomp
 puts
 
-if kind_of_code.include?("1")
+if kind_of_code.include?("4")
+  puts "Goodbye!"
+  exit
+elsif kind_of_code.include?("1")
   puts "What is the URL you would like to encode?"
   puts
   
