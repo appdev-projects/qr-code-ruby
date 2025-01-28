@@ -51,7 +51,7 @@ elsif kind_of_code.include?("3")
   text_to_encode = "SMSTO:#{phone_number}:#{message_body}"
 else
   puts "Didn't recognize that selection. Please try again."
-  puts
+  exit
 end
 
 puts "What would you like to call the PNG?"
