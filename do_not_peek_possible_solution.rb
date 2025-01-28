@@ -12,6 +12,11 @@ puts
 kind_of_code = gets.chomp
 puts
 
+unless ["1", "2", "3", "4"].include?(kind_of_code)
+  puts "Didn't recognize that selection. Please try again."
+  exit
+end
+
 if kind_of_code.include?("4")
   puts "Goodbye!"
   exit
@@ -49,9 +54,6 @@ elsif kind_of_code.include?("3")
   puts
 
   text_to_encode = "SMSTO:#{phone_number}:#{message_body}"
-else
-  puts "Didn't recognize that selection. Please try again."
-  puts
 end
 
 puts "What would you like to call the PNG?"
